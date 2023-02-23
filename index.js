@@ -1,3 +1,10 @@
-let ant = "antonio";
-
-console.log(`hola ${ant}`);
+let nombre = "Antonio";
+let apellido = "Villasante";
+let estudiante = `${nombre} ${apellido}`;
+let estudianteMayus = estudiante.toUpperCase();
+let estudianteMinus = estudiante.toLowerCase();
+let lengthEstudiante = estudiante.length;
+let startChartNombre = nombre[0];
+let endChartApellido = apellido[apellido.length - 1];
+let sinEspacio = estudiante.replace(/ /g, "");
+let contiene = estudiante.includes(nombre);
